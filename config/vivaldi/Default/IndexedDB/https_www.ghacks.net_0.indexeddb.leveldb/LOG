@@ -1,0 +1,5 @@
+2020/05/05-14:28:54.837 18f5 Reusing MANIFEST /home/master/.config/vivaldi/Default/IndexedDB/https_www.ghacks.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/05-14:28:57.714 19d0 Level-0 table #5: started
+2020/05/05-14:28:57.743 19d0 Level-0 table #5: 1313 bytes OK
+2020/05/05-14:28:57.785 19d0 Delete type=0 #3
+2020/05/05-14:28:57.785 19d0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

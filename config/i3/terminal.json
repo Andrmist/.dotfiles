@@ -1,0 +1,111 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.6,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1374,
+               "width": 2560,
+               "x": 0,
+               "y": 0
+            },
+            "name": "i3-save-tree --workspace  > ~/.config/i3/terminal.json — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^konsole$",
+               // "instance": "^konsole$",
+               // "title": "^i3\\-save\\-tree\\ \\-\\-workspace\\ \\ \\>\\ \\~\\/\\.config\\/i3\\/terminal\\.json\\ \\—\\ Konsole$",
+               // "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+          },
+          {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1334,
+               "width": 843,
+               "x": 0,
+               "y": 0
+            },
+            "name": "root@AndrCompReal: /home/master — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^konsole$",
+               // "instance": "^konsole$",
+               // "title": "^root\\@AndrCompReal\\:\\ \\/home\\/master\\ \\—\\ Konsole$",
+               // "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+           }
+   ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.4,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1374,
+               "width": 2560,
+               "x": 0,
+               "y": 0
+            },
+            "name": "cava — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^konsole$",
+               // "instance": "^konsole$",
+               // "title": "^cava\\ \\—\\ Konsole$",
+               // "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1374,
+               "width": 2560,
+               "x": 0,
+               "y": 0
+            },
+            "name": "gotop — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^konsole$",
+               // "instance": "^konsole$",
+               // "title": "^gotop\\ \\—\\ Konsole$",
+               // "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
