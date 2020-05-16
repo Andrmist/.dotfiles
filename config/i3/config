@@ -14,9 +14,9 @@ exec "setxkbmap -option 'grp:alt_shrift_toggle'"
 exec ~/.config/i3/scripts/discord_autostart.sh
 
 
-exec_always feh --bg-fill ~/Wallpapers/moe.png
+exec_always ~/.fehbg
 
-exec_always --no-startup-id allow_rgb10_configs=false compton -b --сorner-radius 10 --config ~/.config/compton.conf
+exec_always --no-startup-id allow_rgb10_configs=false compton -b --config ~/.config/compton.conf
 
 exec_always --no-startup-id ~/.config/polybar/scripts/autoname_workspaces.py
 # Launch polybar
